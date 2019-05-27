@@ -28,14 +28,14 @@
           <a href="tickets.php?page=1&status=0">Tickets</a>
         </span>
         <span>
-          <?php if($_SESSION['user_rights'] >= 1){ ?>
+          <?php if($_SESSION['user_rights'] = 1){ ?>
             <h2>Web-Master</h2>
             <a href="add.php">Gebruiker Toevoegen</a>
             <a href="addTicket.php">Ticket Toevoegen</a>
           <?php } ?>
         </span>
         <span>
-          <?php if($_SESSION['user_rights'] >= 2){ ?>
+          <?php if($_SESSION['user_rights'] = 2){ ?>
             <h2>Admin</h2>
             <a href="verweiderdeGebruikers.php?page=1">Verweiderde Gebruikers</a>
             <a href="logs.php?page=1">Logs</a>
